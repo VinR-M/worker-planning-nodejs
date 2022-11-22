@@ -1,5 +1,5 @@
 import { WorkerModel } from '../../entities/Worker'
-import { IWorkersRepository } from '../../repositories/IWorkersRepository'
+import { IWorkersRepository } from '../../infra/repositories/IWorkersRepository'
 import { CreateWorkerUseCase } from './CreateWorkerUseCase'
 
 const workerMock: WorkerModel = {

@@ -1,5 +1,5 @@
 import { CreateWorkerController } from '../../controllers/CreateWorkerController';
-import { WorkersRepository } from '../../repositories/postgres/WorkersRepository';
+import { WorkersRepository } from '../../infra/repositories/postgres/WorkersRepository';
 import { CreateWorkerUseCase } from './CreateWorkerUseCase';
 
 const workerRepository = new WorkersRepository()

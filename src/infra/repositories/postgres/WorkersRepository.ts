@@ -1,4 +1,4 @@
-import { WorkerModel } from '../../entities/Worker';
+import { WorkerModel } from '../../../entities/Worker';
 import { IWorkersRepository } from '../IWorkersRepository';
 
 export class WorkersRepository implements IWorkersRepository {
